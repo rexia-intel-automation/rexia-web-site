@@ -1,0 +1,72 @@
+# ==========================
+# Defaults
+# ==========================
+DirectoryIndex index.php index.html
+
+# Evita conflitos de content-negotiation (ex.: /portfolio vs /portfolio.*)
+Options -MultiViews
+
+# ==========================
+# Compressão Gzip
+# ==========================
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# ==========================
+# Cache leve
+# ==========================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
+
+# Cabeçalhos básicos de cache (opcional, ajuda CDN/navegador)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+  <FilesMatch "\.(png|jpe?g|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# ==========================
+# Regras de reescrita
+# ==========================
+RewriteEngine On
+RewriteBase /
+
+# 1) Não reescreve se for arquivo ou diretório real
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule . - [L]
+
+# 2) Ignora pastas de assets (redundante com a regra acima, mas deixa explícito)
+RewriteRule ^(assets|uploads|vendor|node_modules)/ - [L]
+
+# 3) Ignora arquivos estáticos comuns na raiz
+RewriteRule ^(favicon\.png|robots\.txt|sitemap\.xml)$ - [L]
+
+# 4) Clean URLs para páginas principais (com ou sem barra final)
+RewriteRule ^(blog|contato|portfolio)/?$ $1.php [L,QSA]
+
+# 5) Redireciona *.php para a versão “limpa” (evita conteúdo duplicado)
+RedirectMatch 301 ^/(blog|contato|portfolio)\.php$ /$1
+
+# ==========================
+# 404 personalizada
+# ==========================
+ErrorDocument 404 /404.php
+
+# ==========================
+# Segurança básica (opcional)
+# ==========================
+# Bloqueia acesso direto a arquivos sensíveis/dotfiles
+<FilesMatch "^\.(?!well-known/)">
+  Require all denied
+</FilesMatch>
