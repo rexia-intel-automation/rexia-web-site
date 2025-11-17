@@ -204,8 +204,8 @@
         <h2>Pronto para automatizar?</h2>
         <p>Agende uma avaliação gratuita e descubra como transformar seu negócio.</p>
         <a href="/analise" class="btn btn-primary">
-          Fale com a RexIA
-          <span class="cta-badge">Grátis • 30 min</span>
+          Faça a avaliação com a RexIA
+          <span class="cta-badge">Grátis • Leva menos que 30 min</span>
         </a>
       </div>
     </div>
@@ -213,3 +213,4 @@
 </main>
 
 <?php include 'includes/footer.php'; ?>
+
