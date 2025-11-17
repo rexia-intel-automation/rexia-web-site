@@ -1,5 +1,5 @@
 <?php /* Página de contato com webhook n8n via fetch no front-end */ ?>
-<?php include 'header.php'; ?>
+<?php include 'includes/header.php'; ?>
 
 <main class="container" style="padding-top:140px;">
   <h1 class="section-title" style="margin-bottom:1rem;">Fale Conosco</h1>
@@ -32,7 +32,7 @@
   </form>
 </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
 
 <script>
   // TROQUE pela URL pública do webhook n8n:
