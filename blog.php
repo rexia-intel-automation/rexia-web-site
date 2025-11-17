@@ -49,7 +49,8 @@ usort($postsList, function($a, $b) {
   return strcmp($db, $da); // desc
 });
 
-$slug = isset($_GET['slug']) ? trim($_GET['slug']) : null;
+// Sanitizar o slug para prevenir path traversal e injeção
+$slug = isset($_GET['slug']) ? preg_replace('/[^a-z0-9\-_]/i', '', trim($_GET['slug'])) : null;
 $currentPost = $slug && isset($allPosts[$slug]) ? $allPosts[$slug] : null;
 ?>
 
