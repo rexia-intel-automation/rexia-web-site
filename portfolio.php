@@ -1,6 +1,6 @@
 <?php
 /* portfolio.php — Página de Portfólio RexIA */
-include 'header.php';
+include 'includes/header.php';
 ?>
 
 <main>
@@ -178,4 +178,4 @@ include 'header.php';
       </section>
     </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

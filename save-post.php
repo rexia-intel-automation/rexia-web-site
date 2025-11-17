@@ -1,6 +1,6 @@
 <?php
 // Caminho para o posts.json
-$JSON_FILE = __DIR__ . '/posts.json';
+$JSON_FILE = __DIR__ . '/assets/data/posts.json';
 
 // Token simples para proteger o endpoint
 $SECRET_TOKEN = 'rex_token_@@_2025';
