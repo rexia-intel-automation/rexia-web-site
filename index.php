@@ -24,7 +24,7 @@
         <h1>Transforme seu<br>negócio com<br><span class="highlight">inteligência</span></h1>
         <p class="hero-description">Soluções de automação e IA sob medida para empresas que querem crescer com eficiência.</p>
         <div class="btn-group">
-          <a href="/contato" class="btn btn-primary">Fale Conosco</a>
+          <a href="/analise" class="btn btn-primary">Fale Conosco</a>
           <a href="#servicos" class="btn btn-secondary">Nossos Serviços</a>
         </div>
       </div>
