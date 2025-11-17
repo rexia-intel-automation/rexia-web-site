@@ -1,7 +1,8 @@
 <?php
 /* Página de contato com webhook n8n via fetch no front-end */
 $page_title = 'Contato';
-include 'includes/header.php';
+include __DIR__ . '/partials/head.php';
+include __DIR__ . '/partials/header.php';
 ?>
 
 <main class="container" style="padding-top:140px;">
@@ -35,7 +36,7 @@ include 'includes/header.php';
   </form>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer.php'; ?>
 
 <script>
   // TROQUE pela URL pública do webhook n8n:

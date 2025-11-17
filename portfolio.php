@@ -1,7 +1,8 @@
 <?php
 /* portfolio.php — Página de Portfólio RexIA */
 $page_title = 'Portfólio';
-include 'includes/header.php';
+include __DIR__ . '/partials/head.php';
+include __DIR__ . '/partials/header.php';
 ?>
 
 <main>
@@ -179,4 +180,4 @@ include 'includes/header.php';
       </section>
     </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer.php'; ?>
