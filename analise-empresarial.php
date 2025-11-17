@@ -1,7 +1,8 @@
 <?php
 /* Formulário de Análise Empresarial - Maturidade Digital */
 $page_title = 'Análise Empresarial';
-include 'includes/header.php';
+include __DIR__ . '/partials/head.php';
+include __DIR__ . '/partials/header.php';
 ?>
 
 <main class="container" style="padding-top:140px; padding-bottom: 4rem;">
@@ -516,4 +517,4 @@ document.getElementById('analiseForm').addEventListener('submit', async (e) => {
 showPage(0);
 </script>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer.php'; ?>

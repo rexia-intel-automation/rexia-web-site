@@ -1,7 +1,8 @@
 <?php
 /* blog.php — Blog RexIA lendo posts de assets/data/posts.json */
 $page_title = 'Blog';
-include 'includes/header.php';
+include __DIR__ . '/partials/head.php';
+include __DIR__ . '/partials/header.php';
 
 function load_posts_from_json() {
   $file = __DIR__ . '/assets/data/posts.json';
@@ -172,4 +173,4 @@ $currentPost = $slug && isset($allPosts[$slug]) ? $allPosts[$slug] : null;
   <?php endif; ?>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer.php'; ?>
