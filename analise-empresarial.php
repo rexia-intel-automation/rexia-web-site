@@ -1,10 +1,13 @@
-<?php /* Formulário de Análise Empresarial - Maturidade Digital */ ?>
-<?php include 'includes/header.php'; ?>
+<?php
+/* Formulário de Análise Empresarial - Maturidade Digital */
+$page_title = 'Análise Empresarial';
+include 'includes/header.php';
+?>
 
 <main class="container" style="padding-top:140px; padding-bottom: 4rem;">
   <div style="max-width: 800px; margin: 0 auto;">
     <div style="text-align: center; margin-bottom: 3rem;">
-      <a href="/analise.php" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); margin-bottom: 1rem;">
+      <a href="/analise" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); margin-bottom: 1rem;">
         <i data-lucide="arrow-left" style="width: 18px; height: 18px;"></i>
         Voltar
       </a>

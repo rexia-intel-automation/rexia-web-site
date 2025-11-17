@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><?php echo isset($page_title) ? htmlspecialchars($page_title) . ' - RexIA' : 'RexIA - Automação e IA para Empresas'; ?></title>
     <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
     <!-- CSS principal -->
     <link rel="stylesheet" href="/assets/css/main.css?v=5" />
@@ -37,11 +38,11 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/#servicos">Serviços</a></li>
                 <li><a href="/#cases">Cases</a></li>
-                <li><a href="/portfolio.php">Portfólio</a></li>
+                <li><a href="/portfolio">Portfólio</a></li>
                 <li><a href="/#techstack">Tech Stack</a></li>
                 <li><a href="/#depoimentos">Depoimentos</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/contato.php">Contato</a></li>
+                <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -51,11 +52,11 @@
             <li><a href="/">Home</a></li>
             <li><a href="/#servicos">Serviços</a></li>
             <li><a href="/#cases">Cases</a></li>
-            <li><a href="/portfolio.php">Portfólio</a></li>
+            <li><a href="/portfolio">Portfólio</a></li>
             <li><a href="/#clientes">Clientes</a></li>
             <li><a href="/#techstack">Tech Stack</a></li>
             <li><a href="/#depoimentos">Depoimentos</a></li>
             <li><a href="/blog">Blog</a></li>
-            <li><a href="/contato.php">Contato</a></li>
+            <li><a href="/contato">Contato</a></li>
         </ul>
     </div>

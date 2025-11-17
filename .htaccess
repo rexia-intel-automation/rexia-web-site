@@ -53,10 +53,10 @@ RewriteRule ^(assets|uploads|vendor|node_modules)/ - [L]
 RewriteRule ^(favicon\.png|robots\.txt|sitemap\.xml)$ - [L]
 
 # 4) Clean URLs para páginas principais (com ou sem barra final)
-RewriteRule ^(blog|contato|portfolio)/?$ $1.php [L,QSA]
+RewriteRule ^(blog|contato|portfolio|analise|analise-pessoal|analise-empresarial)/?$ $1.php [L,QSA]
 
-# 5) Redireciona *.php para a versão “limpa” (evita conteúdo duplicado)
-RedirectMatch 301 ^/(blog|contato|portfolio)\.php$ /$1
+# 5) Redireciona *.php para a versão "limpa" (evita conteúdo duplicado)
+RedirectMatch 301 ^/(blog|contato|portfolio|analise|analise-pessoal|analise-empresarial)\.php$ /$1
 
 # ==========================
 # 404 personalizada

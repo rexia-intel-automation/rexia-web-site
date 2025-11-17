@@ -1,5 +1,8 @@
-<?php /* index.php — Home usando includes */ ?>
-<?php include 'includes/header.php'; ?>
+<?php
+/* index.php — Home usando includes */
+$page_title = 'Home';
+include 'includes/header.php';
+?>
 
 <!-- JSON-LD (ok ficar no body) -->
 <script type="application/ld+json">
