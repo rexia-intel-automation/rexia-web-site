@@ -1,5 +1,8 @@
-<?php /* Página de Escolha de Análise de Maturidade Digital */ ?>
-<?php include 'includes/header.php'; ?>
+<?php
+/* Página de Escolha de Análise de Maturidade Digital */
+$page_title = 'Análise de Maturidade Digital';
+include 'includes/header.php';
+?>
 
 <main class="container" style="padding-top:140px;">
   <div style="max-width: 900px; margin: 0 auto; text-align: center;">
@@ -10,7 +13,7 @@
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; margin-top: 3rem;">
       <!-- Card Análise Pessoal -->
-      <div class="service-card" style="text-align: center; cursor: pointer; transition: transform 0.3s;" onclick="window.location.href='/analise-pessoal.php'">
+      <div class="service-card" style="text-align: center; cursor: pointer; transition: transform 0.3s;" onclick="window.location.href='/analise-pessoal'">
         <div class="service-icon" style="margin: 0 auto 1.5rem;">
           <i data-lucide="user"></i>
         </div>
@@ -22,13 +25,13 @@
           <i data-lucide="clipboard-list" style="width: 18px; height: 18px;"></i>
           <span>15 perguntas • 5 minutos</span>
         </div>
-        <a href="/analise-pessoal.php" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-block;">
+        <a href="/analise-pessoal" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-block;">
           Iniciar Análise Pessoal
         </a>
       </div>
 
       <!-- Card Análise Empresarial -->
-      <div class="service-card" style="text-align: center; cursor: pointer; transition: transform 0.3s;" onclick="window.location.href='/analise-empresarial.php'">
+      <div class="service-card" style="text-align: center; cursor: pointer; transition: transform 0.3s;" onclick="window.location.href='/analise-empresarial'">
         <div class="service-icon" style="margin: 0 auto 1.5rem;">
           <i data-lucide="building-2"></i>
         </div>
@@ -40,7 +43,7 @@
           <i data-lucide="clipboard-list" style="width: 18px; height: 18px;"></i>
           <span>20 perguntas • 8 minutos</span>
         </div>
-        <a href="/analise-empresarial.php" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-block;">
+        <a href="/analise-empresarial" class="btn btn-primary" style="margin-top: 1.5rem; display: inline-block;">
           Iniciar Análise Empresarial
         </a>
       </div>

@@ -1,5 +1,6 @@
 <?php
 /* blog.php — Blog RexIA lendo posts de assets/data/posts.json */
+$page_title = 'Blog';
 include 'includes/header.php';
 
 function load_posts_from_json() {

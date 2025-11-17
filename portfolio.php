@@ -1,5 +1,6 @@
 <?php
 /* portfolio.php — Página de Portfólio RexIA */
+$page_title = 'Portfólio';
 include 'includes/header.php';
 ?>
 

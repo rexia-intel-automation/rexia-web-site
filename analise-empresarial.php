@@ -1,5 +1,8 @@
-<?php /* Formulário de Análise Empresarial - Maturidade Digital */ ?>
-<?php include 'includes/header.php'; ?>
+<?php
+/* Formulário de Análise Empresarial - Maturidade Digital */
+$page_title = 'Análise Empresarial';
+include 'includes/header.php';
+?>
 
 <main class="container" style="padding-top:140px; padding-bottom: 4rem;">
   <div style="max-width: 800px; margin: 0 auto;">
