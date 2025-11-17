@@ -38,11 +38,11 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/#servicos">Serviços</a></li>
                 <li><a href="/#cases">Cases</a></li>
-                <li><a href="/portfolio.php">Portfólio</a></li>
+                <li><a href="/portfolio">Portfólio</a></li>
                 <li><a href="/#techstack">Tech Stack</a></li>
                 <li><a href="/#depoimentos">Depoimentos</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/contato.php">Contato</a></li>
+                <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -52,11 +52,11 @@
             <li><a href="/">Home</a></li>
             <li><a href="/#servicos">Serviços</a></li>
             <li><a href="/#cases">Cases</a></li>
-            <li><a href="/portfolio.php">Portfólio</a></li>
+            <li><a href="/portfolio">Portfólio</a></li>
             <li><a href="/#clientes">Clientes</a></li>
             <li><a href="/#techstack">Tech Stack</a></li>
             <li><a href="/#depoimentos">Depoimentos</a></li>
             <li><a href="/blog">Blog</a></li>
-            <li><a href="/contato.php">Contato</a></li>
+            <li><a href="/contato">Contato</a></li>
         </ul>
     </div>
