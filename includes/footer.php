@@ -47,10 +47,10 @@
                 <h3 style="color: var(--primary); font-size: 1.1rem; margin-bottom: 1rem;">Legal</h3>
                 <ul style="list-style: none; padding: 0;">
                     <li style="margin-bottom: 0.5rem;">
-                        <a href="/termos" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem;">Termos de Uso</a>
+                        <a href="/termos.php" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem;">Termos de Uso</a>
                     </li>
                     <li style="margin-bottom: 0.5rem;">
-                        <a href="/privacidade" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem;">Política de Privacidade</a>
+                        <a href="/privacidade.php" style="color: var(--text-secondary); text-decoration: none; font-size: 0.9rem;">Política de Privacidade</a>
                     </li>
                 </ul>
             </div>
