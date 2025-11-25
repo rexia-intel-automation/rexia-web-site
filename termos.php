@@ -19,7 +19,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
         <div class="hero-badge">TERMOS LEGAIS</div>
-        <h1 style="font-size: 2.5rem;">Termos e<br><span class="highlight">Condições de Uso</span></h1>
+        <h1 style="font-size: 2.5rem; font-style: normal;">Termos e<br><span class="highlight">Condições de Uso</span></h1>
         <p class="hero-description">Última atualização: 24 de novembro de 2025</p>
       </div>
     </div>
