@@ -264,7 +264,7 @@ include 'includes/header.php';
         </ul>
 
         <h2 style="color: var(--primary); margin-top: 2.5rem;">14. Proteção de Dados e LGPD</h2>
-        <p>O tratamento de dados pessoais pela RexIA é regido por nossa <a href="/privacidade" style="color: var(--primary);">Política de Privacidade</a>, em conformidade com a Lei 13.709/2018 (LGPD).</p>
+        <p>O tratamento de dados pessoais pela RexIA é regido por nossa <a href="/privacidade.php" style="color: var(--primary);">Política de Privacidade</a>, em conformidade com a Lei 13.709/2018 (LGPD).</p>
 
         <h3 style="color: var(--text-primary); margin-top: 1.5rem;">14.1. Papéis no Tratamento de Dados</h3>
         <ul style="margin-left: 1.5rem;">
