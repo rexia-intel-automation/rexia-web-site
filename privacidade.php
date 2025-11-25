@@ -19,7 +19,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
         <div class="hero-badge">LGPD</div>
-        <h1 style="font-size: 2.5rem;">Política de<br><span class="highlight">Privacidade</span></h1>
+        <h1 style="font-size: 2.5rem; font-style: normal;">Política de<br><span class="highlight">Privacidade</span></h1>
         <p class="hero-description">Última atualização: 24 de novembro de 2025</p>
       </div>
     </div>
